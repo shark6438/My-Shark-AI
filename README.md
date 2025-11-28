@@ -46,8 +46,6 @@ Shark-AI/
 
 建议使用 Conda 创建虚拟环境：
 
-codeBash
-
 
 
 ```
@@ -58,8 +56,6 @@ conda activate shark_ai
 ### 2. 安装依赖
 
 **注意：Windows 用户请务必先手动安装 bitsandbytes！**
-
-codeBash
 
 
 
@@ -73,14 +69,10 @@ pip install -r requirements.txt
 
 ### 3. 数据准备
 
-1. 
-2. 确保 shark_lora_output 文件夹存在（需要先运行训练脚本）。
-3. 在 secret.txt 中写入你想让 AI 记住的秘密。
+1. 确保 shark_lora_output 文件夹存在（需要先运行训练脚本）。
+2. 在 secret.txt 中写入你想让 AI 记住的秘密。
 
 ### 4. 启动应用
-
-codeBash
-
 
 
 ```
@@ -99,3 +91,4 @@ streamlit run app.py
 
 
 *Created with ❤️ by Shark*
+
